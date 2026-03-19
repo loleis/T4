@@ -88,7 +88,8 @@
 			"searchable": 0,
 			"type": 4
 		},
-    {
+   /*----保留不用
+	  {
       "key":"drpy_js_豆瓣",
       "name":"搜索 | 豆瓣[js]",
       "type":3,
@@ -98,6 +99,8 @@
       "quickSearch":0,
       "changeable":0
       },
+	-----  */
+	  
     {
       "key": "drpy2_豆瓣[官]",
       "name": "豆瓣[官](DR2)",
@@ -109,6 +112,19 @@
       "title": "豆瓣[官]",
       "lang": "dr2",
       "ext": "./js/豆瓣[官].js?pwd=dzyyds"
+    },
+	{
+      "key": "drpyS_蜻蜓FM[听]",
+      "name": "蜻蜓FM[听]",
+      "type": 4,
+      "api": "./public/drpy/drpy2.min.js",
+      "searchable": 0,
+      "filterable": 0,
+      "quickSearch": 0,
+      "title": "蜻蜓FM[听]",
+      "类型": "音乐",
+      "lang": "ds",
+      "ext": "./js/蜻蜓FM.js?pwd=dzyyds"
     },
 	  
       
